@@ -1,0 +1,14 @@
+.hotels {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hotels__header {
+  border: 2px solid #efefef;
+  padding: 15px 10px;
+  margin: 2px 5px;
+  width: calc(100% - 34px);
+  text-align: center;
+}

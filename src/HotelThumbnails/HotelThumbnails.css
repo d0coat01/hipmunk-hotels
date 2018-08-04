@@ -1,0 +1,129 @@
+.hotel-thumbnails {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.hotel-thumbnail {
+  min-width: 338px;
+  min-height: 248px;
+  max-width: 338px;
+  max-height: 248px;
+  margin: 0 10px 20px 10px;
+  border: 1px solid #efefef;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.hotel-thumbnail:hover {
+  border-color: #3394de;
+  transition: border-color 0.5s;
+}
+
+
+.hotel-thumbnail__details {
+  height: 100%;
+  width:100%;
+  position: relative;
+}
+
+.hotel-thumbnail__name {
+  position: absolute;
+  bottom: 58px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 1000;
+  padding: 0 105px 0 15px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hotel-thumbnail__rating {
+  position: absolute;
+  bottom: 38px;
+  padding: 0 105px 0 15px;
+  box-sizing: border-box;
+}
+
+.hotel-thumbnail__ecstasy {
+  padding: 2px 4px;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.hotel-thumbnail__rating-label {
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hotel-thumbnail__nearest_poi {
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+  font-size: 12px;
+  padding: 0 103px 0 18px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hotel-thumbnail__select-container {
+  position: absolute;
+  right: 14px;
+  bottom: 15px;
+  background-color: #ff8517;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.hotel-thumbnail__select {
+  border-right: 1px solid #d76f0a;
+  padding: 10px 8px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.hotel-thumbnail__select:hover {
+  background-color: #f79b4a;
+}
+
+.hotel-thumbnail__arrow {
+  font-size: 10px;
+  padding: 10px;
+}
+
+.hotel-thumbnail__arrow:hover {
+  background-color: #f79b4a;
+}
+
+@media screen and (min-width: 600px) {
+  .hotel-thumbnail {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (min-width: 825px) {
+  .hotel-thumbnail {
+    width: calc(33.3% - 20px);
+  }
+}
+
