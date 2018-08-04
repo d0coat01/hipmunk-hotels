@@ -14,7 +14,7 @@
   min-height: 248px;
   max-width: 338px;
   max-height: 248px;
-  margin: 0 10px 20px 10px;
+  margin: 0 0 10px 0;
   border: 1px solid #efefef;
   background-size: cover;
   cursor: pointer;
@@ -100,6 +100,7 @@
   padding: 10px 8px;
   text-align: center;
   font-size: 16px;
+  border-radius: 5px 0 0 5px;
 }
 
 .hotel-thumbnail__select:hover {
@@ -108,7 +109,8 @@
 
 .hotel-thumbnail__arrow {
   font-size: 10px;
-  padding: 10px;
+  padding: 14px 10px;
+  border-radius: 0 5px 5px 0;
 }
 
 .hotel-thumbnail__arrow:hover {
@@ -118,6 +120,7 @@
 @media screen and (min-width: 600px) {
   .hotel-thumbnail {
     width: calc(50% - 20px);
+    margin: 0 10px 20px 10px;
   }
 }
 
