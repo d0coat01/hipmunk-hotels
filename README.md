@@ -2,6 +2,8 @@
 
 Nearby hotels based on hipmunk's hotel API. UI created with React with a responsive design strategy kept in mind.
 
+[Demo](https://daniel-coats-hipmunk-hotels.herokuapp.com/)
+
 ## Installation
 
 1. `git clone https://github.com/d0coat01/hipmunk-hotels`
