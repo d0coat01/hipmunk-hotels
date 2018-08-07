@@ -2,7 +2,7 @@
 
 Nearby hotels based on hipmunk's hotel API. UI created with React with a responsive design strategy kept in mind.
 
-[Demo](https://daniel-coats-hipmunk-hotels.herokuapp.com/)
+[Demo](https://daniel-coats-hipmunk-hotels.herokuapp.com/) Server sleeps when not in use. Give it 20 seconds to spin up.
 
 ## Installation
 
